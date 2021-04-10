@@ -98,6 +98,10 @@ cd to the directory where the script is located and use the following command:
 pyinstaller textract.py --onefile
 ```
 
+### The executable will be in the dist folder.
+
+<br />
+
 ### Shortcut for exe
 
 Right click on the executable and create a shortcut and place it in:
