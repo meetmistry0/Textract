@@ -99,7 +99,7 @@ Right click on the executable and create a shortcut and place it in:
 C:\Users\YOUR_USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
 ```
 
-### ✔ Star this repo if you like it and feel free to fork it for yourself.
+### ⭐ Star this repo if you like it and feel free to fork it for yourself.
 
 ### Enjoy :)
 
