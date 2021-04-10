@@ -14,15 +14,15 @@ Install git if you don't have it by going to https://git-scm.com/downloads
 
 Install Python on your local machine by going to [Python's download section](https://www.python.org/downloads/)
 
-#### Alternative methods for installing Python:
+### Alternative methods for installing Python:
 
-[scoop](https://scoop.sh/)
+[Scoop](https://scoop.sh/)
 
 ```
 scoop install python
 ```
 
-[chocolatey](https://chocolatey.org/install)
+[Chocolatey](https://chocolatey.org/install)
 
 ```
 choco install python
@@ -74,6 +74,34 @@ cd to the directory where you cloned the repository and use the following comman
 ```
 python textract.py
 ```
+
+## Make the script executable
+
+#### pyinstaller
+
+```
+pip install pyinstaller
+```
+
+### Creating exe
+
+cd to the directory where the script is located and use the following command:
+
+```
+pyinstaller textract.py --onefile
+```
+
+### Shortcut for exe
+
+Right click on the executable and create a shortcut and place it in:
+
+```
+C:\Users\YOUR_USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+```
+
+### ✔ Star this repo if you like it and feel free to fork it for yourself.
+
+### Enjoy :)
 
 ## Authors
 
