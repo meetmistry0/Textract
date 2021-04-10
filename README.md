@@ -1,14 +1,21 @@
 # Textract
 
-Python script to extract text from images
+![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&color=3776AB)
 
-## Getting Started
+Python script to extract text from images by using a fork of Google's tesseract OCR (Optical Character Recognition) engine.
 
 ## Prerequisites
 
 ### Git
 
 Install git if you don't have it by going to https://git-scm.com/downloads
+<br />
+
+Scoop can also be used:
+
+```
+scoop install git
+```
 
 ### Python
 
