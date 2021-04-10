@@ -1,5 +1,0 @@
-pyperclip
-PyQt5
-pytesseract
-py-notifier
-Pillow
