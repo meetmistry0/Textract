@@ -43,7 +43,7 @@ If you use the default install directory, it should be:
 C:\Program Files\Tesseract-OCR\tesseract.exe
 ```
 
-Once the installer is finished, add the above the directory(or the directory that you installed to) to the path.
+Once the installer is finished, add the above the directory (or the directory that you installed to) to the path.
 
 #### If you changed the install directory of tesseract make sure to edit `pytesseract.pytesseract.tesseract_cmd` in the python file to your directory
 
