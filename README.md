@@ -21,18 +21,12 @@ scoop install git
 
 Install Python on your local machine by going to [Python's download section](https://www.python.org/downloads/)
 
-### Alternative methods for installing Python:
+### Alternative:
 
 [Scoop](https://scoop.sh/)
 
 ```
 scoop install python
-```
-
-[Chocolatey](https://chocolatey.org/install)
-
-```
-choco install python
 ```
 
 #### Tesseract
@@ -56,7 +50,12 @@ Once the installer is finished, add the above directory (or the directory that y
 
 #### Step-2
 
-Install the required files for the script to run by pip installing the libraries in the requirement.txt Or install them by using these commands one by one.
+Install the required files for the script to run by pip installing the libraries in the requirement.txt
+```
+pip install -r requirements.txt
+```
+
+#### Or
 
 ```
 pip install pyperclip
