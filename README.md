@@ -4,6 +4,8 @@
 
 Python script to extract text from images by using a fork of Google's tesseract OCR (Optical Character Recognition) engine.
 
+![](textract_demo.gif)
+
 ## Prerequisites
 
 ### Git
