@@ -1,6 +1,5 @@
 import io
 import sys
-
 import pyperclip
 import pytesseract
 from PIL import Image
@@ -21,9 +20,8 @@ class Snipper(QtWidgets.QWidget):
         super().__init__(parent=parent, flags=flags)
 
         self.setWindowTitle("CaptureWords")
-        self.setWindowFlags(
-            Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint | Qt.Dialog
-        )
+        self.setWindowFlags(Qt.FramelessWindowHint |
+                            Qt.WindowStaysOnTopHint | Qt.Dialog)
         self.setWindowState(self.windowState() | Qt.WindowFullScreen)
         self.screen = QtWidgets.QApplication.screenAt(
             QtGui.QCursor.pos()).grabWindow(0)
@@ -81,9 +79,9 @@ def processImage(img):
     buffer.close()
 
     try:
-        result = pytesseract.image_to_string(
-            pil_img, timeout=5, lang=(sys.argv[1] if len(sys.argv) > 1 else None)
-        )
+        result = pytesseract.image_to_string(pil_img, timeout=5, lang=(
+            sys.argv[1] if len(sys.argv) > 1 else None))
+
     except RuntimeError as error:
         print(
             f"ERROR: An error occurred when trying to process the image: {error}")
