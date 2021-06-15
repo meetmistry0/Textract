@@ -52,6 +52,14 @@ Once the installer is finished, add the above directory (or the directory that y
 
 #### Step-2
 
+Git clone the repository by
+
+```
+git clone https://github.com/meetmistry0/Textract.git
+```
+
+#### Step-3
+
 Install the required files for the script to run by pip installing the libraries in the requirement.txt
 ```
 pip install -r requirements.txt
@@ -65,14 +73,6 @@ pip install PyQt5
 pip install pytesseract
 pip install py-notifier
 pip install Pillow
-```
-
-#### Step-3
-
-Git clone the repository by
-
-```
-git clone https://github.com/meetmistry0/Textract.git
 ```
 
 #### Step-4
@@ -110,8 +110,6 @@ Right click on the executable and create a shortcut and place it in:
 ```
 C:\Users\YOUR_USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
 ```
-
-### ⭐ Star this repo if you like it and feel free to fork it for yourself.
 
 ### Enjoy :)
 
