@@ -112,7 +112,3 @@ C:\Users\YOUR_USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
 ```
 
 ### Enjoy :)
-
-## Authors
-
-- **Meet Mistry** - [Github](https://github.com/meetmistry0)
